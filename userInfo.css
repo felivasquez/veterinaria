@@ -1,0 +1,44 @@
+/* SECCION MIS TURNOS */
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.headerTurno{
+    height: 8vh;
+    width: 100%;
+    background-color:  rgb(182, 197, 164);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TituloHeader{
+    font-size: 24px;
+}
+
+.hugo{
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.volverinicio{
+    text-decoration: none;
+    color: black;
+    background-color: blueviolet;
+    width: 800px;
+}
+
+table,tr, td{
+    border: 2px solid #000;
+}
+
+table img{
+    width: 300px;
+    height: 300px;
+
+}

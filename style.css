@@ -1,0 +1,69 @@
+* {
+
+	font-family: century gothic;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+h1 {
+	text-align: center;
+	color: #444
+}
+
+
+form {
+	background-color: #ededed;
+	text-align: center;	
+}
+
+input {
+	text-align: center;
+	width: calc(80% - 10px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	font-size: 16px;
+	text-align: center;
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(60% - 20%);
+	margin: 0 10%;
+	margin-top: 11px;
+	margin-bottom: 11px;
+	border: none;
+}
+
+.btnIngresoRegistro{
+	text-align: center;
+	background-color: #48e;
+	color: #fff;
+	padding: 8px 0;
+	width: calc(60% - 20%);
+	border: none;
+	text-decoration: none;
+
+}
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	background-color: #a22;
+	color: #fff
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.header{  
+    position: fixed;
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(182, 197, 164);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.TituloHeader{
+    font-size: 24px;
+}
+
+#menu{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+#menu .func{
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.seccionPrincipalTurnos{
+    width: 100%;
+    height: 100vh;
+    background: url(fundo-sdma.webp) center right no-repeat;
+    background-size: contain;
+}
+
+.Turnos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnesTurno{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.btnesTurno h1{
+    color: #e9ad09;
+    font-size: 50px;
+}
+
+.turno a{
+    background-color: aqua;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 24px;
+
+}
+.mascota a{
+    background-color: violet;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 24px;
+
+}
+
+.slider-container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    min-height: 100vh;
+}
+        img{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.section-sdma {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.InfoAnimales{
+    height: auto;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin: 40px 0 40px 0;
+}
+table,tr, td{
+    border: 2px solid #000;
+}
+
+table img{
+    width: 300px;
+    height: 300px;
+
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(182, 197, 164);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    display: grid;
+  
+    place-items: center;
+}
